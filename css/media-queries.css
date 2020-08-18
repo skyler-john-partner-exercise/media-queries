@@ -33,8 +33,17 @@ body>h1 {
 .nav-links a {
     font-size: 1.5em;
 }
+.header-img img {
+    height: auto;
+    min-width: 339px;
+    max-width: 100%;
+}
 @media screen and (min-width:934px) {
     .hidden-on-desktop {
         display: none;
+    }
+    .header-img img{
+        max-width: 890px;
+        max-height: 385px;
     }
 }
