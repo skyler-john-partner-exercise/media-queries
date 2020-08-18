@@ -81,24 +81,34 @@ footer {
     }
 
     .sub-section, .main {
-        flex-direction: column;
+        vertical-align: text-top;
         display: inline-block;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    #main {
+
+    }
+
+    #main h2 {
 
     }
 
     .sub-section {
 
-        width: 30%;
-        margin: 5px
+        width: calc(35% - 36px);
+        margin-left: auto;
     }
     .main {
-
         width: 65%;
-        margin: 5px
+        margin-left: 16px;
     }
 
-    footer {
-
+    footer p {
+        margin-left: 16px;
     }
 
     .nav-links {
@@ -111,11 +121,20 @@ footer {
         background-color: white;
     }
 
+    body {
+        position: relative;
+    }
+
     body>h1 {
-        float: left;
+        position: absolute;
+        margin-top: 0;
+        margin-left: 16px;
         text-align: left;
         font-size: 5em;
-        margin: 0;
+    }
+
+    #social-media-links {
+        margin-right: 16px;
     }
 
 }
