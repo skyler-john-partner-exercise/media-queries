@@ -16,6 +16,23 @@
 .alert-info a:hover{
     color: red;
 }
+body>h1 {
+    text-align: center;
+    font-size: 5em;
+}
+.nav-links {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.nav-links>li {
+    background-color: lightslategray;
+    padding: 1em;
+    margin: 1em;
+}
+.nav-links a {
+    font-size: 1.5em;
+}
 @media screen and (min-width:934px) {
     .hidden-on-desktop {
         display: none;
