@@ -38,12 +38,58 @@ body>h1 {
     min-width: 339px;
     max-width: 100%;
 }
+
+#social-media-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#social-media-links>a {
+    color: dimgray;
+    padding: 15px;
+    font-size: 3em;
+}
+
+#social-media-links a:hover {
+    color: slategray;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 @media screen and (min-width:934px) {
     .hidden-on-desktop {
         display: none;
     }
-    .header-img img{
-        max-width: 890px;
-        max-height: 385px;
+
+    .header-img {
+        display: flex;
+        justify-content: center;
+        margin: 2em 0;
     }
+
+    .header-img img{
+        width: 100%;
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+    .nav-links li {
+        background-color: white;
+    }
+
+    body>h1 {
+        float: left;
+        text-align: left;
+        font-size: 5em;
+        margin: 0;
+    }
+
 }
