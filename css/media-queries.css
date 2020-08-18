@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.alert-info {
+    background-color: lightskyblue;
+    text-align: center;
+    height: 3em;
+    line-height: 3em;
+    border: 1px lightgrey solid;
+}
+.alert-info>a {
+    text-decoration: none;
+    color: black;
+}
+.alert-info a:hover{
+    color: red;
+}
+@media screen and (min-width:934px) {
+    .hidden-on-desktop {
+        display: none;
+    }
+}
