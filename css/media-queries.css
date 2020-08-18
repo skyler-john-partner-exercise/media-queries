@@ -33,10 +33,15 @@ body>h1 {
 .nav-links a {
     font-size: 1.5em;
 }
+
+.header-img {
+    display: flex;
+    justify-content: center;
+}
 .header-img img {
     height: auto;
     min-width: 339px;
-    max-width: 100%;
+    max-width: calc(100% - 32px);
 }
 
 #social-media-links {
@@ -73,6 +78,27 @@ footer {
 
     .header-img img{
         width: 100%;
+    }
+
+    .sub-section, .main {
+        flex-direction: column;
+        display: inline-block;
+
+    }
+
+    .sub-section {
+
+        width: 30%;
+        margin: 5px
+    }
+    .main {
+
+        width: 65%;
+        margin: 5px
+    }
+
+    footer {
+
     }
 
     .nav-links {
